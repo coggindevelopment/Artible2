@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A391FA1F2301836300F7342F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A391FA1E2301836300F7342F /* AppDelegate.swift */; };
+		A391FA212301836300F7342F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A391FA202301836300F7342F /* ViewController.swift */; };
+		A391FA242301836300F7342F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A391FA222301836300F7342F /* Main.storyboard */; };
+		A391FA262301836400F7342F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A391FA252301836400F7342F /* Assets.xcassets */; };
+		A391FA292301836400F7342F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A391FA272301836400F7342F /* LaunchScreen.storyboard */; };
+		A391FA372301837B00F7342F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A391FA362301837B00F7342F /* AppDelegate.swift */; };
+		A391FA392301837B00F7342F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A391FA382301837B00F7342F /* ViewController.swift */; };
+		A391FA3C2301837B00F7342F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A391FA3A2301837B00F7342F /* Main.storyboard */; };
+		A391FA412301837C00F7342F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A391FA3F2301837C00F7342F /* LaunchScreen.storyboard */; };
+		A391FA472301838F00F7342F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A391FA252301836400F7342F /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A391FA1B2301836300F7342F /* Artible2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artible2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A391FA1E2301836300F7342F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A391FA202301836300F7342F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A391FA232301836300F7342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A391FA252301836400F7342F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A391FA282301836400F7342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A391FA2A2301836400F7342F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A391FA342301837B00F7342F /* Artible2Admin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Artible2Admin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A391FA362301837B00F7342F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A391FA382301837B00F7342F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A391FA3B2301837B00F7342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A391FA402301837C00F7342F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A391FA422301837C00F7342F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A391FA182301836300F7342F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A391FA312301837B00F7342F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A391FA122301836300F7342F = {
+			isa = PBXGroup;
+			children = (
+				A391FA462301838700F7342F /* Shared */,
+				A391FA1D2301836300F7342F /* Artible2 */,
+				A391FA352301837B00F7342F /* Artible2Admin */,
+				A391FA1C2301836300F7342F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A391FA1C2301836300F7342F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A391FA1B2301836300F7342F /* Artible2.app */,
+				A391FA342301837B00F7342F /* Artible2Admin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A391FA1D2301836300F7342F /* Artible2 */ = {
+			isa = PBXGroup;
+			children = (
+				A391FA1E2301836300F7342F /* AppDelegate.swift */,
+				A391FA202301836300F7342F /* ViewController.swift */,
+				A391FA222301836300F7342F /* Main.storyboard */,
+				A391FA272301836400F7342F /* LaunchScreen.storyboard */,
+				A391FA2A2301836400F7342F /* Info.plist */,
+			);
+			path = Artible2;
+			sourceTree = "<group>";
+		};
+		A391FA352301837B00F7342F /* Artible2Admin */ = {
+			isa = PBXGroup;
+			children = (
+				A391FA362301837B00F7342F /* AppDelegate.swift */,
+				A391FA382301837B00F7342F /* ViewController.swift */,
+				A391FA3A2301837B00F7342F /* Main.storyboard */,
+				A391FA3F2301837C00F7342F /* LaunchScreen.storyboard */,
+				A391FA422301837C00F7342F /* Info.plist */,
+			);
+			path = Artible2Admin;
+			sourceTree = "<group>";
+		};
+		A391FA462301838700F7342F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				A391FA252301836400F7342F /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A391FA1A2301836300F7342F /* Artible2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A391FA2D2301836400F7342F /* Build configuration list for PBXNativeTarget "Artible2" */;
+			buildPhases = (
+				A391FA172301836300F7342F /* Sources */,
+				A391FA182301836300F7342F /* Frameworks */,
+				A391FA192301836300F7342F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artible2;
+			productName = Artible2;
+			productReference = A391FA1B2301836300F7342F /* Artible2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A391FA332301837B00F7342F /* Artible2Admin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A391FA432301837C00F7342F /* Build configuration list for PBXNativeTarget "Artible2Admin" */;
+			buildPhases = (
+				A391FA302301837B00F7342F /* Sources */,
+				A391FA312301837B00F7342F /* Frameworks */,
+				A391FA322301837B00F7342F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Artible2Admin;
+			productName = Artible2Admin;
+			productReference = A391FA342301837B00F7342F /* Artible2Admin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A391FA132301836300F7342F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Nicholas Coggin";
+				TargetAttributes = {
+					A391FA1A2301836300F7342F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A391FA332301837B00F7342F = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A391FA162301836300F7342F /* Build configuration list for PBXProject "Artible2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A391FA122301836300F7342F;
+			productRefGroup = A391FA1C2301836300F7342F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A391FA1A2301836300F7342F /* Artible2 */,
+				A391FA332301837B00F7342F /* Artible2Admin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A391FA192301836300F7342F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A391FA292301836400F7342F /* LaunchScreen.storyboard in Resources */,
+				A391FA262301836400F7342F /* Assets.xcassets in Resources */,
+				A391FA242301836300F7342F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A391FA322301837B00F7342F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A391FA412301837C00F7342F /* LaunchScreen.storyboard in Resources */,
+				A391FA472301838F00F7342F /* Assets.xcassets in Resources */,
+				A391FA3C2301837B00F7342F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A391FA172301836300F7342F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A391FA212301836300F7342F /* ViewController.swift in Sources */,
+				A391FA1F2301836300F7342F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A391FA302301837B00F7342F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A391FA392301837B00F7342F /* ViewController.swift in Sources */,
+				A391FA372301837B00F7342F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A391FA222301836300F7342F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A391FA232301836300F7342F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A391FA272301836400F7342F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A391FA282301836400F7342F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A391FA3A2301837B00F7342F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A391FA3B2301837B00F7342F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A391FA3F2301837C00F7342F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A391FA402301837C00F7342F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A391FA2B2301836400F7342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A391FA2C2301836400F7342F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A391FA2E2301836400F7342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVR98QBCX2;
+				INFOPLIST_FILE = Artible2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CogDev.Artible2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A391FA2F2301836400F7342F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVR98QBCX2;
+				INFOPLIST_FILE = Artible2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CogDev.Artible2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A391FA442301837C00F7342F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVR98QBCX2;
+				INFOPLIST_FILE = Artible2Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CogDev.Artible2Admin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A391FA452301837C00F7342F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BVR98QBCX2;
+				INFOPLIST_FILE = Artible2Admin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.CogDev.Artible2Admin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A391FA162301836300F7342F /* Build configuration list for PBXProject "Artible2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A391FA2B2301836400F7342F /* Debug */,
+				A391FA2C2301836400F7342F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A391FA2D2301836400F7342F /* Build configuration list for PBXNativeTarget "Artible2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A391FA2E2301836400F7342F /* Debug */,
+				A391FA2F2301836400F7342F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A391FA432301837C00F7342F /* Build configuration list for PBXNativeTarget "Artible2Admin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A391FA442301837C00F7342F /* Debug */,
+				A391FA452301837C00F7342F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A391FA132301836300F7342F /* Project object */;
+}
